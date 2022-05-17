@@ -1,0 +1,274 @@
+/*.pricing
+{
+width: 100%;
+background-image: url("https://wallpapermemory.com/uploads/692/gym-background-hd-1920x1200-301983.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}*/
+.price
+{
+width: 1200px;
+margin:auto;
+padding:50px 0px;
+height: 1200px;
+}
+.price h1
+{
+text-align: center;
+font-style: italic;
+color:white;
+text-decoration-line: underline;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.price p
+{
+color:white;
+font-size: 30px;
+padding-top: 20px;
+text-align: center;
+font-weight: bold;
+}
+.price-box
+{
+display: flex;
+justify-content: space-between;
+}
+ .price-box div
+{
+width: 300px;
+padding:25px;
+background-color: white;
+border-radius: 10px;
+text-align: center;
+margin-top: 100px;
+cursor: pointer;
+transition: .5s;
+}
+.pricing .price-box div:hover
+{
+margin-top: 70px;
+background-color: gray;
+color: cyan;
+}
+ h2
+{
+font-size: 30px;
+}
+h3
+{
+font-size: 60px;
+color: red;
+padding-top: 20px;
+}
+h5
+{
+font-weight: bold;
+font-size: 15px;
+padding-top: 20px;
+}
+.btn
+{
+width: 140px;
+height: 45px;
+background-color: red;
+border-radius: 25px;
+color: white;
+font-weight: bold;
+cursor: pointer;
+margin-top: 20px;
+transition: .5s;
+}
+.pricing .price-box div .btn:hover
+{
+background-color: gray;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  @media(max-width:1200px) {
+    .price
+    {
+    width: 900px;
+    margin:auto;
+    padding:30px 0px;
+    height: 900px;
+    }
+    .price h1
+    {
+    text-align: center;
+    font-style: italic;
+    color:white;
+    text-decoration-line: underline;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .price p
+    {
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    }
+    .price-box
+    {
+    display: block;
+    justify-content: space-between;
+    }
+     .price-box div
+    {
+    width: 600px;
+    padding:15px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px;
+    cursor: pointer;
+    transition: .5s;
+    }
+    .pricing .price-box div:hover
+    {
+    margin-top: 70px;
+    background-color: gray;
+    color: cyan;
+    }
+     h2
+    {
+    font-size: 30px;
+    }
+    h3
+    {
+    font-size: 60px;
+    color: red;
+    padding-top: 20px;
+    }
+    h5
+    {
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 20px;
+    }
+    .btn
+    {
+    width: 140px;
+    height: 45px;
+    background-color: red;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .5s;
+    }
+    .pricing .price-box div .btn:hover
+    {
+    background-color: gray;
+    }
+    #background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }}
+      @media(max-width:600px){
+        .price
+    {
+    width: 300px;
+    margin:auto;
+    padding:10px 0px;
+    height: 500px;
+    }
+    .price h1
+    {
+    text-align: center;
+    font-style: italic;
+    color:white;
+    text-decoration-line: underline;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .price p
+    {
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    }
+    .price-box
+    {
+    display: block;
+    justify-content: space-between;
+    }
+     .price-box div
+    {
+    width: 300px;
+    padding:15px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 100px;
+    cursor: pointer;
+    transition: .5s;
+    }
+    .pricing .price-box div:hover
+    {
+    margin-top: 70px;
+    background-color: gray;
+    color: cyan;
+    }
+     h2
+    {
+    font-size: 30px;
+    }
+    h3
+    {
+    font-size: 60px;
+    color: red;
+    padding-top: 20px;
+    }
+    h5
+    {
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 20px;
+    }
+    .btn
+    {
+    width: 140px;
+    height: 45px;
+    background-color: red;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .5s;
+    }
+    .pricing .price-box div .btn:hover
+    {
+    background-color: gray;
+    }
+    #background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }}
+
