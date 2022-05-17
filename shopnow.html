@@ -1,0 +1,261 @@
+<html>
+<head>
+    <title>shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" >
+    <link rel="stylesheet" href="./shop.css">
+    <style>
+        .product img{
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            object-fit: cover;
+        }
+        #featured > div.row.mx-auto.container > div.row.mx-auto.container > div.row.mx-auto.container > div.row.mx-auto.container > nav > ul > li.page-item.active > a{
+            background-color: black;
+        }
+        #featured > div.row.mx-auto.container > div.row.mx-auto.container > div.row.mx-auto.container > div.row.mx-auto.container > nav > ul > li:nth-child(n):hover>a{
+            background-color: coral;
+            color: white;
+        }
+        .pagination a{
+            color: black;
+        }
+        
+    </style>
+</head>
+<body>
+    <section id="featured" class="my-5 py-5">
+        <div class="container mt-5 py-5 ">
+            <h2 class="font-weight-bold">Our Products</h2>
+            <hr>
+            <p>Here you can checkout our new products</p>
+        </div>
+        <div class="row mx-auto container">
+            <div class=" text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fuid mb-3" src="https://cdna.lystit.com/200/250/n/photos/towerlondon/1883e396/puma-Black-City-Rider-Ebony-Trainers.jpeg" alt="srry"> 
+                 <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                 </div>
+                 <h5 class="p-name">sports shoes</h5>
+                 <h4 class="p-price">₹1799</h4>
+                 <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class=" text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fuid mb-3" src="https://5.imimg.com/data5/ANDROID/Default/2020/8/TI/HB/KR/89388922/product-jpeg-250x250.jpeg" alt="srry"> 
+                 <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                 </div>
+                 <h5 class="p-name">puma sports shoes</h5>
+                 <h4 class="p-price">₹1999</h4>
+                 <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class=" text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fuid mb-3" src="https://5.imimg.com/data5/SELLER/Default/2021/7/GS/NZ/DP/102860792/new-product-250x250.jpeg" alt="srry"> 
+                 <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                 </div>
+                 <h5 class="p-name">adidas sports shoes</h5>
+                 <h4 class="p-price">₹ 1499.99</h4>
+                 <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class=" text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fuid mb-3" src="https://5.imimg.com/data5/SELLER/Default/2021/10/JH/UD/HY/139278324/men-gym-shoes-250x250.jpg" alt="srry"> 
+                 <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                 </div>
+                 <h5 class="p-name">nike sports shoes</h5>
+                 <h4 class="p-price">₹2299</h4>
+                 <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="row mx-auto container">
+                <div class=" text-center col-lg-3 col-md-4 col-12 mt-5">
+                    <img class="img-fuid mb-3" src="https://5.imimg.com/data5/SE/IM/WA/GLADMIN-50356174/sportswear-mens-t-shirt-mk2tr1-250x250.jpg" alt="srry"> 
+                     <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                     <h5 class="p-name">nike mens tshirt</h5>
+                     <h4 class="p-price">₹1399</h4>
+                     <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class=" text-center col-lg-3 col-md-4 col-12 mt-5">
+                    <img class="img-fuid mb-3" src="data:image/jpeg;base64,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" alt="srry"> 
+                     <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                     <h5 class="p-name">womens top</h5>
+                     <h4 class="p-price">₹1199</h4>
+                     <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class=" text-center col-lg-3 col-md-4 col-12 mt-5">
+                    <img class="img-fuid mb-3" src="https://cdna.lystit.com/200/250/n/photos/asos/d1ca6540/reebok-Black-Premium-Vector-T-shirt.jpeg" alt="srry"> 
+                     <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                     <h5 class="p-name">mens solid tshirt</h5>
+                     <h4 class="p-price">₹999</h4>
+                     <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class=" text-center col-lg-3 col-md-4 col-12 mt-5">
+                    <img class="img-fuid mb-3" src="https://cdna.lystit.com/200/250/n/photos/gilt/5816f83a/reebok-Blue-Linear-Logo-Crop-T-shirt.jpeg" alt="srry"> 
+                     <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                     <h5 class="p-name">womens topwear</h5>
+                     <h4 class="p-price">₹999</h4>
+                     <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="row mx-auto container">
+            <div class=" text-center col-lg-3 col-md-4 col-12 mt-5">
+                <img class="img-fuid mb-3" src="https://5.imimg.com/data5/UW/GG/MY-77887807/women-side-pocket-jogger-250x250.jpg" alt="srry"> 
+                 <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                 </div>
+                 <h5 class="p-name">womens joggers</h5>
+                 <h4 class="p-price">₹1199</h4>
+                 <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class=" text-center col-lg-3 col-md-4 col-12 mt-5">
+                <img class="img-fuid mb-3" src="https://cdna.lystit.com/200/250/n/photos/eastbay/584c16e0/nike-Team-OrangeWhite-Double-Swoosh-Joggers.jpeg" alt="srry"> 
+                 <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                 </div>
+                 <h5 class="p-name">mens trackpants</h5>
+                 <h4 class="p-price">₹799</h4>
+                 <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class=" text-center col-lg-3 col-md-4 col-12 mt-5">
+                <img class="img-fuid mb-3" src="https://cdna.lystit.com/200/250/n/photos/adidas/bd750c19/adidas-Black-Bellista-Pants.jpeg" alt="srry"> 
+                 <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                 </div>
+                 <h5 class="p-name">womens trackpant</h5>
+                 <h4 class="p-price">₹899</h4>
+                 <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class=" text-center col-lg-3 col-md-4 col-12 mt-5">
+                <img class="img-fuid mb-3" src="https://cdna.lystit.com/200/250/n/photos/asos/4eeb018f/reebok-Black-Premium-Washed-joggers.jpeg" alt="srry"> 
+                 <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                 </div>
+                 <h5 class="p-name">mens jogger</h5>
+                 <h4 class="p-price">₹799</h4>
+                 <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="row mx-auto container">
+                <div class=" text-center col-lg-3 col-md-4 col-12 mt-5">
+                    <img class="img-fuid mb-3" src="https://cdna.lystit.com/200/250/tr/photos/amazon-prime/ea3d4ea7/tommy-hilfiger-Navy-Blazer-Dennis-Duffle-Bag.jpeg" alt="srry"> 
+                     <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                     <h5 class="p-name">Gym Bags</h5>
+                     <h4 class="p-price">₹799</h4>
+                     <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class=" text-center col-lg-3 col-md-4 col-12 mt-5">
+                    <img class="img-fuid mb-3" src="https://cdna.lystit.com/200/250/n/photos/ssense/74551805/y-3-BLACK-Black-Nylon-Ch2-Gym-Duffle-Bag.jpeg" alt="srry"> 
+                     <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                     <h5 class="p-name">Gym Bags</h5>
+                     <h4 class="p-price">₹599</h4>
+                     <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class=" text-center col-lg-3 col-md-4 col-12 mt-5">
+                    <img class="img-fuid mb-3" src="https://cdna.lystit.com/200/250/tr/photos/calvinklein/6eb18f3f/calvin-klein-BLACK-Monogram-Logo-Back-to-school-Jersey-Duffle.jpeg" alt="srry"> 
+                     <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                     <h5 class="p-name">Gym Bags</h5>
+                     <h4 class="p-price">₹699</h4>
+                     <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class=" text-center col-lg-3 col-md-4 col-12 mt-5">
+                    <img class="img-fuid mb-3" src="https://cdna.lystit.com/200/250/tr/photos/lanecrawford/b557c6fb/alexander-mcqueen-Black-Selvedge-Logo-Jacquard-Gym-Bag-Men-Bags-Weekend-Bags-Selvedge-Logo-Jacquard-Gym-Bag.jpeg" alt="srry"> 
+                     <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                     </div>
+                     <h5 class="p-name">Gym Bags</h5>
+                     <h4 class="p-price">₹999</h4>
+                     <button class="buy-btn">Buy Now</button>
+                </div>
+                <nav aria-label="...">
+                    <ul class="pagination mt-5">
+                      <li class="page-item disabled">
+                        <a class="page-link">Previous</a>
+                      </li>
+                      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item " aria-current="page">
+                        <a class="page-link" href="#">2</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                      </li>
+                    </ul>
+                  </nav>
+        </div>
